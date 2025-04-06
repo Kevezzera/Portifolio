@@ -8,15 +8,6 @@
    padding: 10px;
 }
 
-.imgPerfil{
-    display: block;
-    background-color: yellowgreen;
-    width: 110px;
-    margin-left: 240px;
-    margin-top: 60px;
-    position: absolute;
-    border-radius: 50px;
-}
 
 .imgMenu{
     display: block;
@@ -43,10 +34,20 @@
 }
 
 #sobreMin{
+    display: flex;
+   
     margin: 10px;
-    width: 60%;
     padding: 10px;
     text-align: justify;
+}
+
+.sobreMin{
+    margin: 5px;
+}
+
+.imgPerfil{
+    width: 110px;
+    border-radius: 50%;
 }
 
 #info{
