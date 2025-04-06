@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho {
+    background-color: yellowgreen;
+   padding: 10px;
+}
+
+.imgPerfil{
+    display: block;
+    background-color: yellowgreen;
+    width: 110px;
+    margin-left: 240px;
+    margin-top: 60px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.imgMenu{
+    display: block;
+    margin: auto;
+    width: 45px;
+    cursor: pointer;
+}
+
+#menu{
+   background-color: yellow;
+    display: none;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+}
+
+.linkMenu {
+    background-color: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+#sobreMin{
+    margin: 10px;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+}
+
+#info{
+    background-color: yellowgreen;
+    display: flex;
+    margin: 10px;
+}
+
+.info{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#habilidades{
+    background-color: yellowgreen;
+    margin: 10px;
+    display: grid;
+    padding: 10px;
+}
+
+.habilidades{
+   text-align: center;
+    margin: auto;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#qualificacoes{
+    background-color: yellowgreen;
+    background-color: yellowgreen;
+    margin: 10px;
+    display: grid;
+    padding: 10px;
+}
+
+.qualificacoes {
+    text-align: center;
+    margin: auto;
+    margin: 5px;
+    cursor: pointer;
+}
